@@ -13,7 +13,7 @@ namespace Affinity4\Provider\Silex\DoctrineOrm;
 use Pimple\Container;
 use Pimple\ServiceProviderInterface;
 
-class ServiceProvider implements ServiceProviderInterface
+class DoctrineOrmServiceProvider implements ServiceProviderInterface
 {
     public function register(Container $container)
     {
